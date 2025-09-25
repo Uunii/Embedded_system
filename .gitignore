@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+# Ignore executables
+*.exe
+*.out
+
+# Object/temporary files
+*.o
+
+# VS Code settings (ignore everything except main configs)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# System files
+.DS_Store
+Thumbs.db
+EOF
